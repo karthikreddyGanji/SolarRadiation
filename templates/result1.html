@@ -1,0 +1,28 @@
+<!-- result.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Radiation Prediction Result</title>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <p>The predicted solar radiation is: {{ prediction }} W/m².</p>
+
+    <!-- Add a button to return to index.html -->
+    <button onclick="goToIndex()">Go Back to Index</button>
+
+    <script>
+        // JavaScript function to navigate back to index.html
+        function goToIndex() {
+            // Use window.location.href to navigate to index.html
+            window.location.href = "http://127.0.0.1:5000/";
+        }
+    </script>
+</body>
+</html>
+
+
+
